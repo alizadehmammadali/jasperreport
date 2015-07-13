@@ -12,11 +12,7 @@ function showReport2() {
         success: function (response) {
             if (response === "ok") {
                 $('#result').html("Pdf file is created in application report folder");
-                alert('deyisiklik');
             }
-        },
-        error: function (jqXHR, textStatus, errorThrown) {
-
         }
 
     });
